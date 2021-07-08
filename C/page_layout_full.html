@@ -2,6 +2,88 @@
 <head>
 <style>
 /* Write your code here */
+  body {
+      background-image: url(https://acemdia.com/content/uploads/2014/12/subtle-mosaic-pattern1.png);
+      margin: 0;
+      display: flex;
+    }
+    .container {
+      width: 600px;
+      margin: 0 auto;
+    }
+    .search {
+      margin: auto;
+    }
+    .logo_part {
+      background-color: white;
+      display: flex;
+      padding-bottom: 5px;
+    }
+    
+    nav a:hover {
+      background-color: crimson;
+      color: white;
+    }
+    nav a {
+      color: black;
+      background-color: lightgrey;
+      width: 150px;
+      font-size: 30px;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+    }
+    .active {
+      background-color: crimson;
+      color: white;
+    }
+    .title {
+      background-color: royalblue;
+      color: white;
+      text-decoration: none; 
+      text-align: center;
+      font-size: 20px;
+    }
+    .main_section {
+      background-color: white;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      margin: 0 auto;
+    }
+    
+    .description {
+      margin: 0 auto;
+    }
+    
+    footer {
+      height: 50px;
+      font-size: 18px;
+      margin-top: 30px;
+      background-color: black;
+      color: lightgrey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      width: 150px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+    .price {
+      font-weight: bold;
+      margin: 0 auto;
+      font-size: 21px;
+    }
 </style>
 </head>
 <body>
@@ -11,7 +93,7 @@
     <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
   </nav>
   <div class="logo_part">
-     <img src="http://via.placeholder.com/200x100"/>
+     <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/thumbnail_big/public/images/car-reviews/first-drives/legacy/1-audi-s3-sportback-2020-fd-hero-front.jpg?itok=vIBmCtEd" width="200" height="100"/>
      <div class="search">
        <input type="text"/>
        <button>Search</button>
@@ -23,7 +105,7 @@
   <div class="cards">
     <div class="card">
       <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/article_image_134/public/images/car-reviews/first-drives/legacy/1-audi-sq7-2020-fd-hero-front.jpg?itok=bwjJG0ED" width="150" height="150"/>
       <div class="description">
       
       </div>
@@ -33,7 +115,7 @@
     </div>
         <div class="card">
        <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/tesla-model-s_0.jpg?itok=-Ks8nNbh" width="150" height="150"/>
       <div class="description">
       
       </div>
@@ -43,7 +125,7 @@
     </div>
         <div class="card">
       <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/jaguar-xj_0.jpg?itok=uLblP7W1" width="150" height="150"/>
       <div class="description">
       
       </div>
@@ -53,7 +135,7 @@
     </div>
     <div class="card">
       <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/1-lexus-ls500h-2018-rt-hero-front.jpg?itok=1hBVeKp2" width="150" height="150"/>
       <div class="description">
       
       </div>
@@ -63,7 +145,7 @@
     </div>
         <div class="card">
       <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/article_image_134/public/images/car-reviews/first-drives/legacy/1-suzuki-ignis-2020-uk-fd-hero-front.jpg?itok=KjvNX21H" width="150" height="150"/>
       <div class="description">
       
       </div>
@@ -73,7 +155,7 @@
     </div>
      <div class="card">
       <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/article_image_134/public/images/car-reviews/first-drives/legacy/1-rolls-royce-ghost-2020-uk-fd-hero-front.jpg?itok=cEIhPe3W" width="150" height="150"/>
       <div class="description">
       
       </div>

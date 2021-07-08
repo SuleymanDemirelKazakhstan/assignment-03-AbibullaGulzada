@@ -2,10 +2,31 @@
 <head>
 <style>
 /* Write your code here */
+ .letters{
+    border: 4px solid crimson;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid crimson;
+    width: fit-content;
+    margin: 5px;
+}
+  .letters *{
+    color: white;
+    border: 3px solid crimson;
+    background-color: crimson;
+    text-align: center;
+    clip-path: circle();
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 30px;
+    padding: 4px 3px 0 3px;
+    min-width: 30px;
+    min-height: 30px;
+}
 </style>
 </head>
 <body>
-<div class="letters">
+<h1 class="letters">
   <div>A</div>
   <div>B</div>
   <div>C</div>
